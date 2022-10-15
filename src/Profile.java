@@ -5,7 +5,8 @@ public class Profile {
     private String password;
     private final List<Car> userCars;
 
-    public Profile() {
+    public Profile(String username) {
+        this.username = username;
         userCars = new LinkedList<>();
     }
 
